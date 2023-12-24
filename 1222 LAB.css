@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.roll-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.roll-button:hover {
+    background-color: #45a049;
+}
+
+#dice-container {
+    margin-top: 20px;
+}
+
+#probability-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#probability-table th,
+#probability-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#probability-table th {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#probability-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#probability-table tr:hover {
+    background-color: #ddd;
+}
